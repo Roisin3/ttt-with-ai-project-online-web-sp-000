@@ -1,3 +1,8 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+
+puts "Let's play TicTacToe!"
+
+new_game = Game.new
+new_game.play
